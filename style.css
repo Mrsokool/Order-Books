@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root {
+  --prim-drk-1: hsl(185, 75%, 39%);
+  --prim-2: hsl(229, 23%, 23%);
+  --prim-3: hsl(227, 10%, 46%);
+  --gray-drk: hsl(0, 0%, 50%);
+  --radius: 0.875rem;
+  --spacing: 0.25rem;
+  --max-width: 1170px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: #dfe6e9;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  background-position: right 0vw bottom 40vh, left 40vw top 42vh;
+}
+
+.container {
+    background-color: white;
+    width: 460px;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px 0px #b3b7b8;
+}
+
+.header {
+  width: 100%;
+  height: 25vh;
+  background-size: cover;
+}
+
+.header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+.main {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  margin-top: 4rem;
+}
+
+.p-top {
+  margin-top: 1.5rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+
+.boxes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.boxes img {
+  width: 50px;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.boxes a {
+  color: blue;
+}
+
+.box1 {
+  margin: 0 70px 0 15px;
+}
+
+.mybutton {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.mybtn {
+  background-color: rgb(44, 44, 216);
+  padding: 15px 80px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 3px 5px 12px 5px #bfc9cc;
+}
+
+.orderbtn {
+  margin-top: 2rem;
+  padding: 15px 60px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-device-width:500px){
+  .container {
+    width: 90%;
+}
+
+}
+
+
+
